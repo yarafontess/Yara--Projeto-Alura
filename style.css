@@ -1,0 +1,181 @@
+body {
+    background:linear-gradient(151deg, #be86c9, #8b4f91);
+    width: 940px; 
+    margin:  0 auto;
+    box-shadow: 0 0 15px #ffffff;
+}
+.menu {
+    background-color: #d78ee0;
+    background: linear-gradient( 120deg, #310836, #d78ee0);
+}
+
+.menu ul {
+    display: flex;
+    margin-left: 80px;
+}
+
+.menu li {
+    padding: 25px;
+    text-transform:uppercase;
+    font-weight: bold;
+    border-radius: 30px 15px 30px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.menu li :hover {
+    background-color:#9b52a3;
+    border: 1px solid #b965c2(35,128,108);
+    box-shadow: 0 0 20px #FFFFFF;
+}
+.inicio{
+    display: flex;
+    padding-top: 50px;
+    background: linear-gradient( 120deg, #d78ee0, #6e2179);
+    padding: 10px 10px 0;
+}
+
+.inicio div{
+    width: 50%;
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 10px;
+    
+}
+
+.inicio h1{
+    font-size: 30px;
+    margin: 20px 20px 20px 30px;
+}
+
+.inicio h3{
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inicio p {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inicio a img {
+    width: 30px;
+    margin: 10px;
+}
+.yara{
+    width: 50%;
+    padding-bottom: 1px;
+    border-radius: 50% 50% 50% 50% ;
+    border: #5d1668 solid 10px;
+}
+
+.inicio a img {
+    margin: 90px 0 0 0;
+}
+
+.sobre-mim{
+    background:linear-gradient( 120deg, #d78ee0, #6e2179);
+    height: 600px;
+    width: 100%;
+}
+
+.sobre-mim h1 {
+    padding: 0 0 15px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.texto {
+    display: flex;
+    font-weight: initial;
+    margin-bottom: 30px;
+    margin-top: 48px;
+    padding-left:20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.homeoffice {
+    margin: 10px;
+    position: 550px;
+    height:300px;
+    left: 150px;
+}
+.imagem-link1{
+    width: 25px;
+}
+
+.titulo1 {
+    text-align: center;
+    font-size: 80px;
+    margin: 50px 0 0 0;
+}
+
+.textoss {
+    text-align: center;
+    font-size: 20px;
+}
+
+#educacao p, #experiencia p, #habilidades p, #interesses p {
+    background-color: #91399b;
+    box-shadow: 1px 1px 16px (82 4 56 / 50%);
+    color: rgb(3, 4, 4);
+    padding: 18px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 70%;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 100px;
+    font-size: 20px;
+    margin: 2.2%;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.titulo1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 48px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.meu-texto {
+    font-size: 20px;
+}
+.final {
+    background-color: #b965c2;
+    text-align: center;
+}
+
+.final {
+    padding: 30px;
+    font-size: 90px;
+    font-size: 100%;
+    font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    vertical-align: baseline;
+}
+
+.final h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.final p {
+    font-size: 20px;
+    font-weight: bold;
+}
